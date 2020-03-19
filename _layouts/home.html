@@ -1,0 +1,22 @@
+---
+layout: archive
+---
+
+{{ content }}
+
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+
+{% if paginator %}
+  {% assign posts = paginator.posts %}
+{% else %}
+  {% assign posts = site.posts %}
+{% endif %}
+
+<!-- Note - the default is to use the archive-single, but I used feature-row-post for img preview -->
+<div class="grid__wrapper">
+{% for post in posts limit:3 %}
+  {% include feature-row-post.html type="left" %}
+{% endfor %}
+</div>
+
+{% include paginator.html %}
