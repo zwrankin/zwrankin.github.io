@@ -1,5 +1,6 @@
 ---
 layout: archive
+classes: wide
 ---
 
 {{ content }}
@@ -12,7 +13,7 @@ layout: archive
   {% assign posts = site.posts %}
 {% endif %}
 
-<!-- Note - the default is to use the archive-single, but I used feature-row-post for img preview -->
+<!-- Note - the default is to use the archive-single.html, but I used feature-row-post.html for img preview -->
 <div class="grid__wrapper">
 {% for post in posts limit:3 %}
   {% include feature-row-post.html type="left" %}
