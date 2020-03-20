@@ -41,14 +41,15 @@ include:
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - node_modules
 
 # Plugins (previously gems:)
 plugins:
@@ -64,12 +65,18 @@ author:
   avatar : "/assets/images/frankie_computer.jpg"  # "/assets/images/bio-photo.jpg"
   bio    : "Data Scientist at Uptake. Industrial IoT, Global Health, and always the Oxford comma"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://zwrankin.github.io/"
+    # - label: "Website"
+    #   icon: "fas fa-fw fa-link"
+    #   url: "https://zwrankin.github.io/"
     # - label: "Twitter"
     #   icon: "fab fa-fw fa-twitter-square"
     #   url: "https://twitter.com/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/zane-rankin-11656aa4/"
+    - label: "Resume"
+      icon: "far fa-fw fa-file-pdf"
+      url: "https://www.linkedin.com/in/zane-rankin-11656aa4/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/zwrankin"
@@ -82,6 +89,9 @@ footer:
     # - label: "Twitter"
     #   icon: "fab fa-fw fa-twitter-square"
     #   url: "https://twitter.com/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin-in"
+      url: "https://www.linkedin.com/in/zane-rankin-11656aa4/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/zwrankin"
@@ -97,7 +107,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       comments: true
       share: true
       related: true
