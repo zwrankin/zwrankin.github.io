@@ -4,7 +4,7 @@ Repo for my personal website http://zwrankin.github.io/.
 
 
 ## Usage
-To serve locally, navigate to the directory root and run `bundle exec jekyll serve`.  
+To serve locally, navigate to the directory root and run `bundle exec jekyll serve`, with the optional `--incremental` flag.  
 You could also manually run `bundle` to update, then `jekyll serve`. 
 
 
