@@ -21,6 +21,8 @@ gem install jekyl
 There are various ways to customize. Basic configurations are handled in the `_config.yml`.  (https://mmistakes.github.io/minimal-mistakes/docs/overriding-theme-defaults/). However, there are additional customizations that can be handled at various levels.  
 To customize `layouts` or `includes`, download the versions from https://github.com/mmistakes/minimal-mistakes, then make local edits (which will override the previous versions from the gem).  
 To customize css, you must download the entire contents of https://github.com/mmistakes/minimal-mistakes/tree/master/_sass.  
+**Notes to self**  
+- The first (and as of 3/20/2020, only) css customization is the `_archive.scss` layout, in which I updated the width of feature rows so that the blog post previews don't overrun when using `classes: wide` in the frontmatter of `home.html` layout. 
 
 
 ## Upgrading

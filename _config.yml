@@ -62,7 +62,7 @@ plugins:
 
 author:
   name   : "Zane Rankin"
-  avatar : "/assets/images/frankie_computer.jpg"  # "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/zane.jpg" 
   bio    : "Data Scientist at Uptake. Industrial IoT, Global Health, and always the Oxford comma"
   links:
     # - label: "Website"

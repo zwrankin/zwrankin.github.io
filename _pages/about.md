@@ -1,8 +1,25 @@
 ---
 permalink: /about/
-title: "About"
+title: "About Me"
+feature_row:
+  - image_path: assets/images/loafs.jpg
+    alt: "Cooking"
+    title: "Cooking"
+    excerpt: "Baking up a storm in the kitchen with my favorite loafs"
+  - image_path: /assets/images/camping.jpg
+    alt: "Camping"
+    title: "Camping"
+    excerpt: "Backpacking in remote places"
+  - image_path: /assets/images/zane_frisbee.jpg
+    alt: "Competing"
+    title: "Competing"
+    excerpt: "Representing my city or country at Ultimate Frisbee championships"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+Helplessly inquisitive data scientist amazed and humbled by the world around us. Did you know that Machine Learning can detect distribution transformer failures weeks in advance, but a single squirrel chewing wires has twice crashed the Nasdaq?  
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+Data is the lens through which I see the world and ways to improve it.  My academic background in environmental science and global health honed my knack for distilling complex research questions into clearly communicated analyses. As a Data Scientist at a Chicago AI startup, Uptake, I have driven models from user needs assessments to data engineering to model deployment.  My models are live in customer applications to maximize the reliability of the electic grid infrastructure. 
+
+In addition to occasional side projects on data visualization (see Blog posts), you may also find me:
+
+{% include feature_row %}
