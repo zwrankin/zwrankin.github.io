@@ -23,7 +23,8 @@ To customize `layouts` or `includes`, download the versions from https://github.
 To customize css, you must download the entire contents of https://github.com/mmistakes/minimal-mistakes/tree/master/_sass.  
 **Notes to self**  
 - The first (and as of 3/20/2020, only) css customization is the `_archive.scss` layout, in which I updated the width of feature rows so that the blog post previews don't overrun when using `classes: wide` in the frontmatter of `home.html` layout. 
-
+- All external links open in new tabs as per [this script](https://github.com/gernotstarke/minimal-mistakes/commit/9ba387bbe3160e83f54c7f63f303254155f9fab5)
+- Here are the [custom favicon instructions](https://github.com/mmistakes/minimal-mistakes/issues/949)
 
 ## Upgrading
 Currently minimal mistakes tracks the latest version on the remote master branch.  The built site source include `Minimal Mistakes Jekyll Theme 4.19.1 by Michael Rose` at the top of every `.html` file. If needed, you can pin an old version of `remote_theme: mmistakes/minimal-mistakes` within `_config.yml`.  For more, see https://mmistakes.github.io/minimal-mistakes/docs/upgrading/.  

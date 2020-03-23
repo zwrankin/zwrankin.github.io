@@ -24,7 +24,7 @@ minimal_mistakes_skin: default
 search: true
 url: "https://zwrankin.github.io/"  # TODO - custom domain
 repository: "zwrankin/zwrankin.github.io"
-logo: "/assets/images/noun_Brain_291205.png"
+logo: "/assets/images/noun_Brain_291205_white.png"
 
 # Build settings
 markdown: kramdown
