@@ -26,6 +26,7 @@ To customize css, you must download the entire contents of https://github.com/mm
 - All external links open in new tabs as per [this script](https://github.com/gernotstarke/minimal-mistakes/commit/9ba387bbe3160e83f54c7f63f303254155f9fab5)
 - Here are the [custom favicon instructions](https://github.com/mmistakes/minimal-mistakes/issues/949)
 - For my resume, there's no first-class support from minimal mistakes theme to do so [issue](https://github.com/mmistakes/minimal-mistakes/issues/323). There are third party embedding plugins but I'd rather just use the current external link (to the source of this PDF file)
+- To add a custom domain (e.g. zanerankin.com), register one with e.g. Google, then follow the Github instructions for [Managing a custom domain for your GitHub Pages site](https://help.github.com/en/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site). These instructions include configuring your domain, see Google instructions for (creating a A or CNAME record)[https://support.google.com/domains/answer/9211383?hl=en]. 
 
 ## Upgrading
 Currently minimal mistakes tracks the latest version on the remote master branch.  The built site source include `Minimal Mistakes Jekyll Theme 4.19.1 by Michael Rose` at the top of every `.html` file. If needed, you can pin an old version of `remote_theme: mmistakes/minimal-mistakes` within `_config.yml`.  For more, see https://mmistakes.github.io/minimal-mistakes/docs/upgrading/.  
